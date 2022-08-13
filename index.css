@@ -1,0 +1,64 @@
+.nav-items{
+  list-style: none;
+  display: flex;
+  
+}
+.nav-items>li{
+  padding: 10px;
+}
+
+.nav{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(26, 26, 58);
+  color: white;
+  height: 75px;
+
+}
+.img{
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+.tit{
+  color: antiquewhite;
+  margin-right: 450px;
+
+}
+.tits{
+  margin-right: auto;
+  color: rgb(114, 114, 241);
+  padding-left: 10px;
+
+}
+
+.content{
+  
+  color: rgb(12, 12, 22);
+  padding: 25px 50px;
+  padding-bottom: 100px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(G:\3rd year\react\tab\public\images.jpg);
+  background-repeat:no-repeat;
+  
+}
+.ctit{
+  margin-right:px;
+  padding-top: 50px;
+}
+.ccont{
+  margin-left: 100px;
+  padding: 100px 50px;
+}
+
+.ccont>li::marker{
+  font-size: 1.4rem;
+  color: aqua;
+}
+.navs{
+  color: white;
+  background-color: blue;
+}
